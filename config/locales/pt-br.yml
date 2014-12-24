@@ -16,6 +16,10 @@ pt-BR:
     edit:
       <<: *index
       title: Editar estudante
+    create:
+      notice: 'Estudante criado com sucesso!'
+    update:
+      notice: 'Estudante atualizado com sucesso!'
     show:
       <<: *index
       title: "Exibindo estudante de n° %{id}"
@@ -23,6 +27,10 @@ pt-BR:
       title: Novo estudante
 
   classrooms:
+    create:
+      notice: 'Sala criada com sucesso!'
+    update:
+      notice: 'Sala atualizado com sucesso!'
     index: &index
       title: Salas de aula
       student: Estudante
@@ -38,6 +46,10 @@ pt-BR:
       title: Nova sala de aula
 
   courses:
+    create:
+      notice: 'Curso criado com sucesso!'
+    update:
+      notice: 'Curso atualizado com sucesso!'
     index: &index
       title: Cursos
       name: Nome

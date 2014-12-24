@@ -2,7 +2,15 @@
   <h2><%= t '.title', id: @course.id %></h2>
   <br />
 
-  <p id="notice"><%= notice %></p>
+  <% if notice %>
+    <div class="alert alert-success alert-dismissible fade in text-center" role="alert">
+      <button type="button" class="close" data-dismiss="alert">
+        <span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span>
+      </button>
+      <strong>OK: </strong> <%= notice %>
+    </div>
+  <% end %>
 
   <p class="col-md-12">
     <strong><%= t('.name') %>:</strong>
@@ -16,7 +24,7 @@
 
   <p class="col-md-12">
     <strong><%= t('.status') %>:</strong>
-    <%= @course.status %>
+    <%= @course.status_humanized %>
   </p>
 
   <div class="form-group col-md-12">
