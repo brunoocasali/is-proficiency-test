@@ -1,15 +1,18 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: proficiency-test_development
+  # Isn't a good practice use the names of databases with a hyphen '-'
+  # Then we need to escape chars using: `foo-bar`
+  database: proficiency_test_development
   pool: 5
-  username: root
-  password: "123"
+  host: "localhost"
+  username: "dba"
+  password: "bd1ef3dd14d85aab4996ee5e68aab40362791e936b26142b"
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: proficiency-test_test
+  database: proficiency_test_test
   pool: 5
-  username: root
-  password: "123"
+  username: dba_test
+  password: "hCUxHYkHdM3zX4QMBw1uqbggbUjIJ3Um2XIYMljZyVRIDz78YLO"

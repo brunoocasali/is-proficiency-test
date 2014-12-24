@@ -1,0 +1,32 @@
+<div class="col-md-offset-2 col-md-8">
+  <h2><%= t '.title', id: @course.id %></h2>
+  <br />
+
+  <p id="notice"><%= notice %></p>
+
+  <p class="col-md-12">
+    <strong><%= t('.name') %>:</strong>
+    <%= @course.name %>
+  </p>
+
+  <p class="col-md-12">
+    <strong><%= t('.description') %>:</strong>
+    <%= @course.description %>
+  </p>
+
+  <p class="col-md-12">
+    <strong><%= t('.status') %>:</strong>
+    <%= @course.status %>
+  </p>
+
+  <div class="form-group col-md-12">
+    <%= link_to t('links.show'), edit_course_path(@course),
+    class: 'btn btn-info btn-block' %>
+  </div>
+
+  <div class="form-group col-md-12">
+    <%= link_to t('links.back'), courses_path,
+    class: 'btn btn-default btn-block' %>
+  </div>
+
+</div>

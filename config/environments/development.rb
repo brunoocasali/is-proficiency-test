@@ -43,7 +43,7 @@ Rails.application.configure do
     g.test_framework :rspec, :view_specs => false, :request_specs => false, :routing_specs => false
 
     # Set scaffold controller
-    g.scaffold_controller = :my_controller
+    # g.scaffold_controller = :my_controller
 
     # Disabling some generators
     g.helper      = false

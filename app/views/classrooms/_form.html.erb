@@ -1,0 +1,17 @@
+<%= simple_form_for(@classroom, defaults: { input_html: { class: 'form-control' } }) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-group col-md-12">
+    <%= f.association :student %>
+  </div>
+
+  <div class="form-group col-md-12">
+    <%= f.association :course %>
+  </div>
+
+  <%= f.hidden_field :entry_at, value: Time.new %>
+
+  <div class="form-group col-md-12">
+    <%= f.button :submit, class: 'btn btn-success btn-block' %>
+  </div>
+<% end %>

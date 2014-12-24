@@ -1,0 +1,70 @@
+pt-BR:
+  options: Opções
+  home: Início
+  links:
+    back: Voltar
+    edit: Editar
+    save: Salvar
+    show: Visualizar
+
+  students:
+    index: &index
+      title: Estudantes
+      name: Estudante
+      register_number: N° de registro
+      status: Situação
+    edit:
+      <<: *index
+      title: Editar estudante
+    show:
+      <<: *index
+      title: "Exibindo estudante de n° %{id}"
+    new:
+      title: Novo estudante
+
+  classrooms:
+    index: &index
+      title: Salas de aula
+      student: Estudante
+      course: Curso
+      entry_at: Criado em
+    edit:
+      <<: *index
+      title: Editar sala de aula
+    show:
+      <<: *index
+      title: "Exibindo sala de aula n°: %{id}"
+    new:
+      title: Nova sala de aula
+
+  courses:
+    index: &index
+      title: Cursos
+      name: Nome
+      status: Situação
+      description: Descrição
+    edit:
+      <<: *index
+      title: Editar curso
+    show:
+      <<: *index
+      title: "Exibindo curso de n°: %{id}"
+    new:
+      title: Novo curso
+
+  views:
+    pagination:
+      first: "&laquo; Primeira"
+      last: "Última &raquo;"
+      previous: "&lsaquo; Anterior"
+      next: "Próxima &rsaquo;"
+      truncate: "&hellip;"
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "Sem %{entry_name} encontrados"
+          one: "Exibindo <b>1</b> %{entry_name}"
+          other: "Exibindo <b>todos os %{count}</b> %{entry_name}"
+      more_pages:
+        display_entries: "Exibindo %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> de <b>%{total}</b> no total"

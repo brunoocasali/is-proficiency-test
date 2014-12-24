@@ -1,0 +1,37 @@
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header navbar-default">
+      <button type="button" class="navbar-toggle collapsed"
+       data-toggle="collapse" data-target="#nav-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="nav-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <%= link_to raw("<i class='fa fa-home fa-2x'></i>&nbsp;
+          #{ t('home') }"), root_path %>
+        </li>
+        <li>
+          <%= link_to raw("<i class='fa fa-users fa-2x'></i>&nbsp;
+           #{ t('students.index.title') }"), students_path %>
+        </li>
+        <li>
+          <%= link_to raw("<i class='fa fa-list-ul fa-2x'></i>&nbsp;
+          #{ t('classrooms.index.title') }"), classrooms_path %>
+        </li>
+        <li>
+          <%= link_to raw("<i class='fa fa-book fa-2x'></i>&nbsp;
+          #{ t('courses.index.title') }"), courses_path %>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

@@ -1,0 +1,32 @@
+<div class="col-md-offset-2 col-md-8">
+  <h2><%= t '.title', id: @classroom.id %></h2>
+  <br />
+
+  <p id="notice"><%= notice %></p>
+
+  <p class="col-md-12">
+    <strong><%= t('.student') %>:</strong>
+    <%= @classroom.student.name %>
+  </p>
+
+  <p class="col-md-12">
+    <strong><%= t('.course') %>:</strong>
+    <%= @classroom.course.name %>
+  </p>
+
+  <p class="col-md-12">
+    <strong><%= t('.entry_at') %>:</strong>
+    <%= @classroom.entry_at.strftime("%d/%m/%Y") %>
+  </p>
+
+  <div class="form-group col-md-12">
+    <%= link_to t('links.edit'), edit_classroom_path(@classroom),
+    class: 'btn btn-info btn-block' %>
+  </div>
+
+  <div class="form-group col-md-12">
+    <%= link_to t('links.back'), classrooms_path,
+     class: 'btn btn-default btn-block' %>
+  </div>
+
+</div>

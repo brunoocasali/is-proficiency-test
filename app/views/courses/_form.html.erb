@@ -1,0 +1,19 @@
+<%= simple_form_for(@course, defaults: { input_html: { class: 'form-control' } }) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-group col-md-12">
+    <%= f.input :name, input_html: { maxlength: 45 } %>
+  </div>
+
+  <div class="form-group col-md-12">
+    <%= f.input :description, input_html: { maxlength: 45 } %>
+  </div>
+
+  <div class="form-group col-md-12">
+    <%= f.input :status, collection: CourseStatus.to_a %>
+  </div>
+
+  <div class="form-group col-md-12">
+    <%= f.button :submit, class: 'btn btn-success btn-block' %>
+  </div>
+<% end %>

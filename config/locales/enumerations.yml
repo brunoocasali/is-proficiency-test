@@ -1,7 +1,8 @@
 pt-BR:
   enumerations:
-    marital_status:
-      single: "Solteiro(a)"
-      married: "Casado(a)"
-      divorced: "Divorciado(a)"
-      widower: "Viúvo(a)"
+    course_status:
+      current: Em Andamento
+      stopped: Parado
+    student_status:
+      registered: Matriculado
+      quitter: Desistente

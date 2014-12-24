@@ -1,9 +1,30 @@
 pt-BR:
   simple_form:
+    links:
+      back: Voltar
     "yes": 'Sim'
     "no": 'Não'
     required:
       text: 'Este campo é obrigatório'
       mark: '*'
     error_notification:
-      default_message: "<strong>Alguns erros foram encontrados</strong>. Por favor, verifique:"
+      default_message: '<a class="close" data-dismiss="alert">&times;</a><strong>
+                      Alguns erros foram encontrados</strong>. Por favor, verifique:'
+  activerecord:
+    models:
+      course: Curso
+      student: Estudante
+      classroom: Sala de aula
+    attributes:
+      course:
+        name: Nome
+        status: Situação
+        description: Descrição
+      student:
+        name: Nome
+        status: Situação
+        register_number: N° de registro
+      classroom:
+        entry_at: Criado em
+        student: Estudante
+        course: Curso
