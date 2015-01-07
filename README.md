@@ -5,4 +5,4 @@
 
 This app will be used to demonstrate what I know and what I'm good at what I do for IS!
 
-Check it out in heroku! (almost)
+Check it out in heroku! [http://is-proficiency-test.herokuapp.com/](http://is-proficiency-test.herokuapp.com/)
