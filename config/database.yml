@@ -14,5 +14,6 @@ test:
   encoding: unicode
   database: proficiency_test_test
   pool: 5
-  username: dba_test
-  password: "hCUxHYkHdM3zX4QMBw1uqbggbUjIJ3Um2XIYMljZyVRIDz78YLO"
+  host: "localhost"
+  username: "dba"
+  password: "bd1ef3dd14d85aab4996ee5e68aab40362791e936b26142b"
