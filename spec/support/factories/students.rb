@@ -1,9 +1,8 @@
-# Read about factories at https://github.com/thoughtbot/factory_girl
-
 FactoryGirl.define do
   factory :student do
-    name "MyString"
-    register_number "MyString"
-    status 1
+    name { Forgery('name').full_name }
+    register_number { Forgery('name').full_name }
+     status { StudentStatus.list.sample }
   end
 end
+

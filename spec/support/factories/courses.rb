@@ -1,9 +1,8 @@
-# Read about factories at https://github.com/thoughtbot/factory_girl
-
 FactoryGirl.define do
   factory :course do
-    name "MyString"
-    description "MyString"
-    status 1
+    name { Forgery('lorem_ipsum').words(3) }
+    description { Forgery('lorem_ipsum').words(3) }
+    status { CourseStatus.list.sample }
   end
 end
+

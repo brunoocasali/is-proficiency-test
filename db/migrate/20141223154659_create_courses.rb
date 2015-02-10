@@ -7,5 +7,8 @@ class CreateCourses < ActiveRecord::Migration
 
       t.timestamps
     end
+
+    add_index :courses, :status
   end
 end
+
