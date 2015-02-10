@@ -52,6 +52,6 @@ group :test do
   gem 'forgery', '~> 0.6.0'
 
   gem 'simplecov', require: false
-  gem 'codeclimate-test-reporter', require: false
+  gem 'codeclimate-test-reporter', require: nil
 end
 
