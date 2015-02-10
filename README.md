@@ -2,6 +2,7 @@
 ===================
 [![Code Climate](https://codeclimate.com/github/brunoocasali/is-proficiency-test/badges/gpa.svg)](https://codeclimate.com/github/brunoocasali/is-proficiency-test)
 [![Test Coverage](https://codeclimate.com/github/brunoocasali/is-proficiency-test/badges/coverage.svg)](https://codeclimate.com/github/brunoocasali/is-proficiency-test)
+[![Build Status](https://travis-ci.org/brunoocasali/is-proficiency-test.svg)](https://travis-ci.org/brunoocasali/is-proficiency-test)
 
 This app will be used to demonstrate what I know and what I'm good at what I do for IS!
 
