@@ -1,7 +1,7 @@
 [is] Proficiency Test
 ===================
-[![Code Climate](https://codeclimate.com/repos/54ad61326956804af8003315/badges/8d5c078f876e0fd60583/gpa.svg)](https://codeclimate.com/repos/54ad61326956804af8003315/feed)
-[![Test Coverage](https://codeclimate.com/repos/54ad61326956804af8003315/badges/8d5c078f876e0fd60583/coverage.svg)](https://codeclimate.com/repos/54ad61326956804af8003315/feed)
+[![Code Climate](https://codeclimate.com/github/brunoocasali/is-proficiency-test/badges/gpa.svg)](https://codeclimate.com/github/brunoocasali/is-proficiency-test)
+[![Test Coverage](https://codeclimate.com/github/brunoocasali/is-proficiency-test/badges/coverage.svg)](https://codeclimate.com/github/brunoocasali/is-proficiency-test)
 
 This app will be used to demonstrate what I know and what I'm good at what I do for IS!
 
